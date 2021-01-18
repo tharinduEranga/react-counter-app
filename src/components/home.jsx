@@ -35,8 +35,7 @@ class Home extends Component {
     }
 
     buttonClick(event) {
-        console.log(this.state);
-        console.log(event);
+        this.setState({count: this.state.count + 1});
     }
 }
 
